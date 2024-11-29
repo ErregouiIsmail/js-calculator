@@ -1,0 +1,45 @@
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div {
+  box-sizing: border-box;
+}
+
+section {
+  background-color: brown;
+  height: 600px;
+  width: 500px;
+  border-radius: 5%;
+}
+
+#screen {
+  background-color: aliceblue;
+  border: 1px black solid;
+  height: 20%;
+  margin: 20px;
+}
+
+#history,
+#result {
+  background-color: aqua;
+  height: 40px;
+  margin: 10px;
+}
+
+#keys {
+  height: 70%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.numbers,
+.operators {
+  flex-grow: 1;
+  flex-basis: 25%;
+  border-radius: 50%;
+}
